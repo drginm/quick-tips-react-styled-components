@@ -1,6 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: palevioletred;
+  border-left: 5px palevioletred solid;
+  padding-left: 5px;
+`;
 
 function App() {
   return (
@@ -18,6 +25,9 @@ function App() {
         >
           Learn React
         </a>
+        <Title>
+          This is the styled Title
+        </Title>
       </header>
     </div>
   );
